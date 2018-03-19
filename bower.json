@@ -1,0 +1,21 @@
+{
+  "name": "knockout-remainingheight",
+  "homepage": "https://github.com/JackFallows/knockout-remainingheight",
+  "authors": [
+    "Jack Fallows"
+  ],
+  "description": "Knockout binding for setting an element's height to the remainder of the parent's height",
+  "keywords": [
+    "knockout",
+    "binding"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}
