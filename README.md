@@ -12,7 +12,7 @@ To install, use Bower:
 `<script type="text/javascript" src="~/bower_components/knockout-remainingheight/remainingHeight.js"></script>`
 
 ### Use the binding
-To use, the element's parent must have a defined height (so that it does simply end up the height of it's children). Then:
+To use, the element's parent must have a defined height (so that it doesn't simply end up the height of it's children). Then:
 
 ```
 <div data-bind="remainingHeight: true">
