@@ -15,7 +15,7 @@ To install, use Bower:
 To use, the element's parent must have a defined height (so that it does simply end up the height of it's children). Then:
 
 ```
-<div data-bind="remainingHeight: true">;
+<div data-bind="remainingHeight: true">
 ...
-</div>;
+</div>
 ```
