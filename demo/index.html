@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html style="background-color: red">
+    <head>
+        <title>Remaining height demo</title>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../remainingHeight.js"></script>
+    </head>
+    <body>
+        <div style="height: 70vh; background-color: #ccc">
+            <div style="height: 10%; margin-top: 20px; margin-bottom: 20px; background-color: blue"></div>
+            <div style="background-color: green" data-bind="remainingHeight: true"></div>
+            <div style="height: 10%; margin-top: 20px; margin-bottom: 20px; background-color: blue"></div>
+        </div>
+    </body>
+
+    <script>
+        $(function () {
+            ko.applyBindings({});
+        })
+    </script>
+</html>
