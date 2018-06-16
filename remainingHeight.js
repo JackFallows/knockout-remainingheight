@@ -9,7 +9,7 @@
 
 	ko.bindingHandlers.remainingHeight = {
 		init: function (element) {
-			$(element).css("height", "calc(100% - " + $(element).siblings(":visible").toArray().reduce((px, el) => px += $(el).outerHeight(true), 0) + "px");
+			$(element).css("height", "calc(100% - " + $(element).siblings(":visible").toArray().reduce(function (px, el) { return px += $(el).outerHeight(true) }, 0) + "px");
 		}
 	}
 })();
