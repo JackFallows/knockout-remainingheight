@@ -19,3 +19,11 @@ To use, the element's parent must have a defined height (so that it doesn't simp
 ...
 </div>
 ```
+
+You can also bind to an observable which will trigger recalculations of the element height on changes (useful if a user action causes new sibling elements to appear, or existing ones to disappear):
+
+```
+<div data-bind="remainingHeight: myObservable">
+...
+</div>
+```
